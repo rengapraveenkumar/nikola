@@ -1,0 +1,49 @@
+.wrapperz{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .az{
+    display: block;
+    width: 200px;
+    height: 50px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+    border-radius: 40px;
+  }
+  
+  .az span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .az:after{
+    position: absolute;
+    border-radius: 40px;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #ff003c64;
+    transition: all .35s;
+  }
+  
+  .az:hover{
+    color: rgb(2, 2, 2);
+    font-weight: bold;
+  }
+  
+  .az:hover:after{
+    width: 100%;
+  }

@@ -1,0 +1,41 @@
+.nav-bg{
+    background-color: transparent;
+}
+
+.bg-right
+{
+    background-image: linear-gradient(to top right, #C5FCFE, #FEBDBF);
+}
+.bg-left{
+    background-color: #15191F;
+}
+
+.btn-coz1{
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+
+.titles{
+    font-family: 'Anton', sans-serif;
+    font-size: 60px;
+}
+
+.name{
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: #fff;
+    width: 170px;
+}
+
+.name-img{
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+.name-name{
+    color: #15191F;
+    text-align: center;
+    margin-bottom: -3px;
+}
